@@ -4,7 +4,7 @@ from random import randint
 print ("Bienvenue dans le jeux")
 print ("Vous deverez Trouvez trois fois de suite une clef dans chaque jarre")
 cle = 0
-Dif = int(input("Quelle lvl de difficulter "))
+Dif = int(input("Quelle lvl de difficulter (Entre 1 et 3)"))
 
 while cle != 3 and Dif == 1 :
     if cle == 3 :
